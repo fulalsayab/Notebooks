@@ -60,7 +60,7 @@ curl --request PUT -H "Content-Type: application/json" --data '{"coffee":1,"milk
 
 Once you send a request to a server, you will get back a [response](https://www.tutorialspoint.com/http/http_message_examples.htm). A response typically is composed of several parts: including headers, status code, and body.
 
-<img src="https://github.com/CSC-510/REST/blob/master/img/http.png?raw=true" width=50%>
+<img src="https://github.com/fulalsayab/Notebooks2/blob/main/images/http.png" width=50%>
 
 Headers will may useful information, such as rate-limits quotas, or properties of the response, such as whether it is encoded or compressed in a particular format. The [status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) will allow you to verify the success of an operation or indicate different types of failures. Additional error information may be sent via the response body.
 
